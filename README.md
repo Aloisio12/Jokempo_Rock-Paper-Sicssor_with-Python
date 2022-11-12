@@ -3,6 +3,7 @@ Game - Jokempô(Rock - paper - sissors)
 
 
 Como jogar?
+
 Para jogar você precisa ter o Python instalado em seu computador, depois disso basta baixar o jogo no link abaixo e executá-lo.
 
 
@@ -15,6 +16,7 @@ Jokempô download:  https://drive.google.com/file/d/1seviugDmWIy4IsXpOIw_PK1cBP5
 English:
 
 How to play?
+
 let´s to play the game: you need download the Python in your desktop, after, download the game in the below link and run the file.
 
 
