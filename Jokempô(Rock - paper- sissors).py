@@ -84,9 +84,10 @@ def jogar():
 while True:
     print("Jokempô(Rock - paper- sissors) - Aloísio")
     
-    print("Escolha uma opção:")
+    print("Escolha uma opção: ")
     opcao_jogo = int(input("1 - Iniciar Jogo \n2 - Para sair\n"))
-
+    os.system("cls")
+    
     if opcao_jogo == 1:
         jogar()
     else:
