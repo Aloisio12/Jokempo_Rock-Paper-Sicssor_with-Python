@@ -91,4 +91,5 @@ while True:
         jogar()
     else:
         print("Você está desligando o jogo, muito obrigado e volte sempre!")
+        input()
         break
