@@ -23,7 +23,7 @@ def jogar():
     empate = 0
 
     while opcao != 4:
-        resposta = input("Escolha uma opção:\n 1 - Pedra\n 2 - Papel\n 3 - Tesoura\n 4 - Zerar\nOpção: ")
+        resposta = input("--- Escolha uma opção: ---\n 1 - Pedra\n 2 - Papel\n 3 - Tesoura\n 4 - Zerar\nOpção: ")
         os.system("cls")
         
         if resposta:
@@ -43,43 +43,34 @@ def jogar():
             if opcao == 1:
                 if maquina == 3:
                     ganhou += 1
-                    print("Opção da máquina: Tesoura\n")
                     print("Uhuu, você ganhou!!")
                 elif maquina == 1:
                     empate += 1
-                    print("Opção da máquina: Pedra\n")
                     print("Empatou")
                 else:
                     perdeu += 1
-                    print("Opção da máquina: Papel\n")
                     print("Perdeu")
             
             elif opcao == 2:
                 if maquina == 1:
                     ganhou += 1
-                    print("Opção da máquina: Pedra\n")
                     print("Uhuu, você ganhou!!")
                 elif maquina == 2:
                     empate += 1
-                    print("Opção da máquina: Papel\n")
                     print("Empatou")
                 else:
                     perdeu += 1
-                    print("Opção da máquina: Tesoura\n")
                     print("Perdeu")
             
             elif opcao == 3:
                 if maquina == 2:
                     ganhou += 1
-                    print("Opção da máquina: Papel\n")
                     print("Uhuu, você ganhou!!")
                 elif maquina == 3:
                     empate += 1
-                    print("Opção da máquina: Tesoura\n")
                     print("Empatou")
                 else:
                     perdeu += 1
-                    print("Opção da máquina: Pedra\n")
                     print("Perdeu")
         
         else:
@@ -91,7 +82,7 @@ def jogar():
     print("Jogo Encerrado, muito obrigado!\n")
 
 while True:
-    print("Jokempô(Rock - paper- sissors) - Aloísio")
+    print("Jokempô(Rock - paper- sissors) - Aloísio\n")
     
     print("Escolha uma opção: ")
     opcao_jogo = int(input("1 - Iniciar Jogo \n2 - Para sair\n"))
