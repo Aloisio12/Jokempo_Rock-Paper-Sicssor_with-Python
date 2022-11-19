@@ -1,5 +1,5 @@
-# Jokempo_Rock-paper-sissors_
-Game - Jokempô(Rock - paper - sissors)
+# Jokempo_Rock-Paper-Sissor_
+Game - Jokempô(Rock - Paper - Sissor)
 
 
 Como jogar?
