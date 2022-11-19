@@ -82,7 +82,7 @@ def jogar():
     print("Jogo Encerrado, muito obrigado!\n")
 
 while True:
-    print("Jokempô(Rock - paper- sissors) - Aloísio\n")
+    print("Jokempô(Rock - Paper- Sissor) - Aloísio\n")
     
     print("Escolha uma opção: ")
     opcao_jogo = int(input("1 - Iniciar Jogo \n2 - Para sair\n"))
