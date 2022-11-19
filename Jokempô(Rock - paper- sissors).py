@@ -91,6 +91,7 @@ while True:
     if opcao_jogo == 1:
         jogar()
     else:
-        print("Você está desligando o jogo, muito obrigado e volte sempre!")
+        print("Você está desligando o jogo, muito obrigado e volte sempre!\n")
+        print("JOGO FEITO POR: ALOISIO VITORIO")
         input()
         break
