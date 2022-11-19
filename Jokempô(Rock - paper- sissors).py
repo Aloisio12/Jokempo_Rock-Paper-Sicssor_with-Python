@@ -2,7 +2,6 @@ import random
 import os
 
 def resultado(ganhou, empate, perdeu):
-    os.system("cls")
     print("\nResultado:")
     print(f"Vitórias: {ganhou}")
     print(f"Empates: {empate}")
@@ -25,6 +24,7 @@ def jogar():
 
     while opcao != 4:
         resposta = input("Escolha uma opção:\n 1 - Pedra\n 2 - Papel\n 3 - Tesoura\n 4 - Zerar\nOpção: ")
+        os.system("cls")
         
         if resposta:
             opcao = int(resposta)
