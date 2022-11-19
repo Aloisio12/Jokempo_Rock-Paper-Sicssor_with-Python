@@ -10,7 +10,7 @@ def resultado(ganhou, empate, perdeu):
 
 def escolha(numero):
     if numero == 1:
-        return "pedra"
+        return "Pedra"
     elif numero == 2:
         return "Papel"
     else:
@@ -43,34 +43,43 @@ def jogar():
             if opcao == 1:
                 if maquina == 3:
                     ganhou += 1
+                    print("Opção da máquina: Tesoura\n")
                     print("Uhuu, você ganhou!!")
                 elif maquina == 1:
                     empate += 1
+                    print("Opção da máquina: Pedra\n")
                     print("Empatou")
                 else:
                     perdeu += 1
+                    print("Opção da máquina: Papel\n")
                     print("Perdeu")
             
             elif opcao == 2:
                 if maquina == 1:
                     ganhou += 1
+                    print("Opção da máquina: Pedra\n")
                     print("Uhuu, você ganhou!!")
                 elif maquina == 2:
                     empate += 1
+                    print("Opção da máquina: Papel\n")
                     print("Empatou")
                 else:
                     perdeu += 1
+                    print("Opção da máquina: Tesoura\n")
                     print("Perdeu")
             
             elif opcao == 3:
                 if maquina == 2:
                     ganhou += 1
+                    print("Opção da máquina: Papel\n")
                     print("Uhuu, você ganhou!!")
                 elif maquina == 3:
                     empate += 1
+                    print("Opção da máquina: Tesoura\n")
                     print("Empatou")
                 else:
                     perdeu += 1
+                    print("Opção da máquina: Pedra\n")
                     print("Perdeu")
         
         else:
